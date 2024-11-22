@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            100: '#1E293B',
+                            200: '#334155',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gradient-to-r from-dark-100 to-slate-600 text-gray-100 font-mono subpixel-antialiased min-h-screen flex flex-col">
+    <div class="container mx-auto px-4 py-8">
+
+        <nav class="mb=8 sticky">
+            <ul class="flex justify-center space-x-6">
+                <li><a href="index.html" class="p-3 rounded-full bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">Home</a></li>
+                <li><a href="aboutme.html" class="p-3 rounded-full font-bold bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">About Me</a></li>
+                <li><a href="myepiccar.html" class="p-3 rounded-full bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">My Epic Car</a></li>
+                <li><a href="theend.html" class="p-3 rounded-full bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">The End</a></li>
+            </ul>
+        </nav>
+
+        <br>    
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="md:col-span-1">
+                <div class="bg-dark-200 rounded-lg overflow-hidden shadow-lg mb-8">
+                    <img src="me.jpg" alt="Current Car" class="w-full h-48 object-fill">
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold mb-2">This is ME</h2>
+                        <p class="text-gray-400">Look at how nonchalant I am.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-dark-200 rounded-lg overflow-hidden shadow-lg">
+                    <img src="wespictureme.jpg" alt="Dream Car" class="w-full h-48 object-fill">
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold mb-2">Me and my Mom</h2>
+                        <p class="text-gray-400">This is me and my Mom at a football game, edited by Wesley Ganier.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:col-span-2">
+                <h1 class="text-3xl font-bold mb-6">About Me</h1>
+                <p class="mb-4">Welcome to the about me page, you can open these images in a new tab to see them in their full quality.</p>
+                <p class="mb-4">I am an IT student in the senior class of 2025. My birthday is November 21st and I am 18 years old.</p>
+                <p class="mb-4">I am the current videographer for the varsity football team. I graduate next year in May.</p>
+                <p class="mb-4">In my free time, I train Mixed Martial Arts and Muay Thai at the Hyannis MMA gym.</p>
+            </div>
+        </div>
+
+    </div>
+</body>

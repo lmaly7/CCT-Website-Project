@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Epic Car</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            100: '#1E293B',
+                            200: '#334155',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gradient-to-r from-dark-100 to-slate-600 text-gray-100 font-mono subpixel-antialiased min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <nav class="mb=8 sticky">
+            <ul class="flex justify-center space-x-6">
+                <li><a href="index.html" class="p-3 rounded-full bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">Home</a></li>
+                <li><a href="aboutme.html" class="p-3 rounded-full bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">About Me</a></li>
+                <li><a href="myepiccar.html" class="p-3 rounded-full font-bold bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">My Epic Car</a></li>
+                <li><a href="theend.html" class="p-3 rounded-full bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">The End</a></li>
+            </ul>
+        </nav>
+    <br>    
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="md:col-span-1">
+                <div class="bg-dark-200 rounded-lg overflow-hidden shadow-lg mb-8">
+                    <img src="https://i.ytimg.com/vi/y2TBvZDTbKg/maxresdefault.jpg" alt="Current Car" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold mb-2">Current Car</h2>
+                        <p class="text-gray-400">2018 Volkswagen Passat 2.0T R-line</p>
+                    </div>
+                </div>
+                
+                <div class="bg-dark-200 rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/2004_Chevrolet_Corvette_coupe%2C_front_right%2C_07-21-2024.jpg/1200px-2004_Chevrolet_Corvette_coupe%2C_front_right%2C_07-21-2024.jpg" alt="Dream Car" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold mb-2">Dream Car</h2>
+                        <p class="text-gray-400">2004 Corvette C5 5.7L ZO6</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:col-span-2">
+                <h1 class="text-3xl font-bold mb-6">My Epic Car</h1>
+                <p class="mb-4">Welcome to my car. On this page you will find information about my car and my dream car aswell.</p>
+                <p class="mb-4">My current car  is a 2018 Volkswagen Passat 2.0T R-Line. It is equipped with an 2.0L inline 4 cylinder engine</p>
+                <p class="mb-4">that is naturally aspirated with a turbo. It has 174 horsepower and a top speed of 155 miles per hour. </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p class="mb-4">My dream car, (on the left) is a 2004 Corvette C5 5.7L Z06. It has a 405 horsepower V8 engine and a</p>
+                <p class="mb-4">0-60 time of 4.7 seconds. It is naturally aspirated and has very good gas milage for a sports car.</p>
+            </div>
+        </div>
+    </br>    
+    </div>
+    
+</body>
+</html>

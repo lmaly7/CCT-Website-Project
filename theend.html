@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The End</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            100: '#1E293B',
+                            200: '#334155',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gradient-to-r from-dark-100 to-slate-600 text-gray-100 font-mono subpixel-antialiased min-h-screen flex flex-col">
+    <header>
+        <br>
+            <nav class="mb=8 ">
+                <ul class="flex justify-center space-x-6">
+                    <li><a href="index.html" class="p-3 rounded-full bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">Home</a></li>
+                    <li><a href="aboutme.html" class="p-3 rounded-full bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">About Me</a></li>
+                    <li><a href="myepiccar.html" class="p-3 rounded-full bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">My Epic Car</a></li>
+                    <li><a href="theend.html" class="p-3 rounded-full font-bold bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">The End</a></li>
+                </ul>
+            </nav>
+        </br>    
+    </header>    
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <section class="mb-8">
+            <h1 class="text-3xl font-bold mb-4">Welcome to My Epic Website, The End</h1>
+            <p class="text-lg">
+                Welcome to the end of my website. I hope that you enjoyed reading through it.
+            </p>
+        </section>
+
+        <section>
+            <img src="https://wallpapers.com/images/hd/the-end-gooxz1ky1wr8sesx.jpg" alt="This is the end" class="w-full h-64 object-cover rounded-lg shadow-lg">
+        </section>
+    </main>
+
+</body>

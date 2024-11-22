@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            100: '#1E293B',
+                            200: '#334155',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gradient-to-r from-dark-100 to-slate-600 text-gray-100 font-mono subpixel-antialiased min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+
+        <nav class="mb=8 sticky">
+            <ul class="flex justify-center space-x-6">
+                <li><a href="index.html" class="p-3 rounded-full font-bold bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">Home</a></li>
+                <li><a href="aboutme.html" class="p-3 rounded-full bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">About Me</a></li>
+                <li><a href="myepiccar.html" class="p-3 rounded-full bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">My Epic Car</a></li>
+                <li><a href="theend.html" class="p-3 rounded-full bg-gradient-to-r from-pink-700 to-indigo-600 hover:from-green-400 hover:to-blue-500">The End</a></li>
+            </ul>
+        </nav>
+
+        <span class="text-2xl p-3 rounded-lg font-bold box-decoration-clone bg-gradient-to-r from-pink-700 to-indigo-600 text-white px-2">My Epic Website</span>
+
+        <br>
+            <br>
+                <main class="text-center"> 
+                    <div class="text-2xl font-bold">Hello</div>
+                    <p>Welcome to my epic website. On this website you will find information about me, my car, and the end.</p>
+                    <p>You can use the navbar above this text to select your page.</p>
+                </main>    
+            </br>   
+        </br>    
+
+    </div>
+</body>
+</html>
